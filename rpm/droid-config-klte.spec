@@ -17,6 +17,29 @@
 # Other screen sizes and ratios will require more trial-and-error.
 %define pixel_ratio 1.0
 
+
+%define straggler_files \
+/bugreports \
+/d \
+/file_contexts.bin \
+/property_contexts \
+/sdcard \
+/selinux_version \
+/service_contexts \
+/vendor \
+/usr/bin/test_hwc2 \
+/usr/include/hybris/hwc2/hwc2_compatibility_layer.h \
+/usr/lib/libgralloc.so \
+/usr/lib/libgralloc.so.1 \
+/usr/lib/libgralloc.so.1.0.0 \
+/usr/lib/libhwc2.so \
+/usr/lib/libhwc2.so.1 \
+/usr/lib/libhwc2.so.1.0.0 \
+/usr/lib/pkgconfig/libgralloc.pc \
+/usr/lib/pkgconfig/libhwc2.pc \
+%{nil}
+
+
 %include droid-configs-device/droid-configs.inc
 
 # IMPORTANT if you want to comment out any macros in your .spec, delete the %

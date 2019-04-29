@@ -14,6 +14,7 @@ Requires:
 - droid-config-klte-flashing
 - droid-config-klte-bluez5
 - droid-hal-version-klte
+- droid-hal-klte-detritus
 
 # Hybris packages
 - libhybris-libEGL
