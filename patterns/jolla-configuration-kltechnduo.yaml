@@ -1,10 +1,10 @@
 # Feel free to disable non-critical HA parts during devel by commenting lines out
 # Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
 
-Description: Pattern with packages for klte configurations
-Name: jolla-configuration-klte
+Description: Pattern with packages for kltechnduo configurations
+Name: jolla-configuration-kltechnduo
 Requires:
-- pattern:jolla-hw-adaptation-klte
+- pattern:jolla-hw-adaptation-kltechnduo
 
 - patterns-sailfish-applications
 - patterns-sailfish-ui
@@ -37,5 +37,5 @@ Requires:
 # to improve camera startup times and the like
 #- mapplauncherd-booster-silica-qt5-media
 
-Summary: Jolla Configuration klte
+Summary: Jolla Configuration kltechnduo
 

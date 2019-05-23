@@ -1,20 +1,19 @@
 # Feel free to disable non-critical HA parts during devel by commenting lines out
 # Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
 
-Description: Pattern with packages for klte HW Adaptation
-Name: jolla-hw-adaptation-klte
+Description: Pattern with packages for kltechnduo HW Adaptation
+Name: jolla-hw-adaptation-kltechnduo
 Requires:
-- droid-hal-klte
-- droid-hal-klte-img-boot
-- droid-hal-klte-kernel-modules
-- droid-config-klte-sailfish
-- droid-config-klte-pulseaudio-settings
-- droid-config-klte-policy-settings
-- droid-config-klte-preinit-plugin
-- droid-config-klte-flashing
-- droid-config-klte-bluez5
-- droid-hal-version-klte
-- droid-hal-klte-detritus
+- droid-hal-kltechnduo
+- droid-hal-kltechnduo-img-boot
+- droid-hal-kltechnduo-kernel-modules
+- droid-config-kltechnduo-sailfish
+- droid-config-kltechnduo-pulseaudio-settings
+- droid-config-kltechnduo-policy-settings
+- droid-config-kltechnduo-preinit-plugin
+- droid-config-kltechnduo-flashing
+- droid-config-kltechnduo-bluez5
+- droid-hal-version-kltechnduo
 
 # Hybris packages
 - libhybris-libEGL
@@ -82,5 +81,5 @@ Requires:
 # For devices with SD Card
 #- sd-utils
 
-Summary: Jolla HW Adaptation klte
+Summary: Jolla HW Adaptation kltechnduo
 
